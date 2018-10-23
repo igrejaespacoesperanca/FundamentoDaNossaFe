@@ -1,3 +1,23 @@
+h1{
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin: 0px;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 1px 7px gray;
+    text-align: center;
+
+}
+h2{
+	font-size: 15px;
+	text-align: center;
+}
+
+p{
+	text-indent: 30px;
+}
 .listaPerguntas > li {
 	font-size: 18px;
 	font-style: italic;
@@ -9,21 +29,6 @@
 	border-radius: 5px;
 }
 
-h1{
-    background-color: red;
-    color: white;
-    padding: 30px;
-    margin: 0px;
-    position: fixed;
-    top: 0px;
-    box-shadow: 0px 1px 7px gray;
-    text-align: center;
-
-}
-h2{
-	font-size: 15px;
-	text-align: center;
-}
 .topicoAssunto{
 	padding: 20px;
 	font-size: 20px;
@@ -32,10 +37,7 @@ h2{
 	color: white;
 	border-radius: 5px;
 }
-p{
-	text-indent: 30px;
 
-}
 .listaMenu1{
 	text-align: left;
 }
