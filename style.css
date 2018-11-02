@@ -141,8 +141,9 @@ a:visited{
     color: red;
  }
  .siteigreja{
+        width:100%;
  	font-family: 'Encode Sans Expanded', sans-serif;
- 	font-size: 30px;
+ 	font-size: 10px;
  	font-style: bold;
  	text-align: center;
 
