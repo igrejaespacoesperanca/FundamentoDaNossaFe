@@ -3,14 +3,15 @@
 <html>
 <head>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css"/> 	
+ <link rel="stylesheet" href="style.css"/> 
+ <link href="https://fonts.googleapis.com/css?family=Arimo|Encode+Sans+Expanded" rel="stylesheet">
   <title>Fundamentos da nossa fé</title>
 </head>
   <body>
     <header class="indice" id="indiceMenu">
     <!-- comentario -->  
 <div>
-   <div>
+   <div class="title-menu">
       <h1>FUNDAMENTOS DA NOSSA FÉ</h1>
    </div>
    <br>
@@ -18,68 +19,71 @@
    <br>
    <br>
    <br>
+   
+   <div class="aviso-menu" id="aviso-menu">Toque no menu <br> e vá para direto para a seção</div>
+   <br>
+
    <br>
    <br>
-<nav>
-        <div>
+   
+   <nav>
+        <div class="box-menu">
 		  <a href="#apresentacao"><h2>APRESENTAÇÃO</h2></a><hr>
 	   
 		  <a href="#intro"><h2>INTRODUÇÃO</h2></a><hr>
-        </div>
+        
 		
-		<div>
-		 <a href="#primeirapar"><h2>PRIMEIRA PARTE</h2></a>
-		</div>
+		  <a href="#primeirapar"><h2>PRIMEIRA PARTE</h2></a>
+		
 
-		<div>
+		
 		    <a href="#credoapos"><h3>1. O Credo dos Apóstolos</h3></a>
-			Art. I: Da Criação e Providência</br>
-			Art. II: Da Redenção</br>
-			Art. III: Da Santificação e Glorificação
-			<ul class="listaMenu1">
-				<li>Do Espírito Santo</li>
-				<li>Da Santa Igreja Cristã</li>
-				<li>Da Remissão dos Pecados</li>
-				<li>Da Ressurreição da Carne</li>
-				<li>Da Vida Eterna</li>
+			<a href="#criacao">Art. I: Da Criação e Providência</br></a>
+			<a href="#redencao">Art. II: Da Redenção</a></br>
+			<a href="#santificacao">Art. III: Da Santificação e Glorificação</a>
+			<ul class="listaMenu1"></br>
+				<li><a href="#espirito">Do Espírito Santo</a></li>
+				<li><a href="#santaigreja">Da Santa Igreja Cristã</a></li>
+				<li><a href="#remissao">Da Remissão dos Pecados</a></li>
+				<li><a href="#ressureicao">Da Ressurreição da Carne</a></li>
+				<li><a href="#vidaeterna">Da Vida Eterna</a></li>
 			</ul>
-		</div>
+		
 
-		<div>
+		
 			<a href="#sacramentobat"><h3>2. O Sacramento do Batismo</h3></a>
-			Art. I: Da Essência do Batismo</br>
-			Art. II: Do Batismo Infantil</br>
-			Art. III: Da Educação das Crianças e da Classe de Confirmação</br>
-		</div>
+			<a href="#essenciabatismo"> Art. I: Da Essência do Batismo</a></br>
+			<a href="#batismoinf">Art. II: Do Batismo Infantil</a></br>
+			<a href="#educacao">Art. III: Da Educação das Crianças e da Classe de Confirmação</a></br>
+		
 
-		<div>
+	
 			<a href="#sacramentosant"><h3>3. O Sacramento da Santa Ceia</h3></a>
-			Art. I: Da Essência da Santa Ceia</br>
-			Art. II: Do Proveito da Santa Ceia</br>
-			Art. III: Do Uso Salutar da Santa Ceia</br><hr>
-		</div>
+			<a href="#essenciaceia">Art. I: Da Essência da Santa Ceia</a></br>
+			<a href="#proveitoceia">Art. II: Do Proveito da Santa Ceia</a></br>
+			<a href="#usosalutar">Art. III: Do Uso Salutar da Santa Ceia</a></br><hr>
+		
 
-		<div>
+		
 			<a href="#segundapart"><h2>SEGUNDA PARTE</h2></a>
-		</div>
+		
 
-		<div>
+		
 			<a href="#reformapro"><h3>4. A Reforma Protestante</h3></a>
-			- Lutero, o Grande Reformador</br>
-			- A Igreja Luterana Pós-Reforma</br>
-		</div>
+			<a href="#lutero"> - Lutero, o Grande Reformador</a></br>
+			<a href="#posreforma"> - A Igreja Luterana Pós-Reforma</a></br>
+		
 
-		<div>
+		
 		   <a href="#luteranismobra"><h3>5. O Luteranismo no Brasil</h3></a>
-		</div>
-
-		<div>
+		
+		
 		   <a href="#renovacaolut"><h3>6. A Renovação Luterana</h3></a><hr>
-		</div>
+		
     </div>
 </nav>
-<div><br>
-</div>
+<br>
+
 
 <section><div>
 <h3 class="topicoAssunto" id="apresentacao">APRESENTAÇÃO</h3>
@@ -171,7 +175,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				<li>Como se chama a nossa confissão de fé?</li>
 				A nossa confissão de fé chama-se Símbolo Apostólico.
 
-				<h5>Art. I: DA CRIAÇÃO E PROVIDÊNCIA</h5>
+				<h5 id="criacao">Art. I: DA CRIAÇÃO E PROVIDÊNCIA</h5>
 				<li>Que diz o Primeiro Artigo?</li>
 				Creio em Deus Pai todo-poderoso, Criador do céu e da terra.
 				<li>Que significa isto?</li>
@@ -226,7 +230,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 
 
 
-				<h5>Art. II:  DA REDENÇÃO</h5>
+				<h5 id="redencao">Art. II:  DA REDENÇÃO</h5>
 				<li>Que diz o Segundo Artigo?</li>
 				E em Jesus Cristo, seu único Filho, nosso Senhor, o qual foi concebido pelo Espírito Santo, nasceu da virgem Maria, padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado, desceu ao inferno, no terceiro dia ressuscitou dos mortos, subiu ao céu, e está sentado à direita de Deus Pai todo-poderoso, donde há de vir a julgar os vivos e os mortos.
 				<li>Que significa isto?</li>
@@ -311,7 +315,8 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				Também, segundo a sua natureza humana domina Cristo tudo com poder e majestade divina, mas especialmente como cabeça, governa e protege a sua Igreja. (Sl 110:1; Ef 1:20-23)
 				<li>Que ensina a Escritura a respeito da segunda vinda de Cristo?</li>
 				A Escritura ensina que Cristo voltará no dia derradeiro, visível e glorioso, para julgar o mundo com justiça. (Mc 13:32; At 1:11; 10:42; 17:31; 2 Co 5:10; 1 Pe  4:7; 2 Pe 3:10)
-				<h5>Art. III:  DA SANTIFIÇÃO E GLORIFICAÇÃO</h5>
+				
+				<h5 id="santificacao">Art. III:  DA SANTIFIÇÃO E GLORIFICAÇÃO</h5>
 				<li>Que diz o Terceiro Artigo?</li>
 				Creio no Espírito Santo, na santa Igreja Cristã - a comunhão dos santos, na remissão dos pecados, na ressurreição da carne e na vida eterna. Amém.
 				<li>Que significa isto?</li>
@@ -319,7 +324,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				<li>Quais são as cinco partes de que trata este Artigo?</li>
 				As cinco partes de que trata este Artigo são: 1ª-) do Espírito Santo, 2ª-) da santa Igreja Cristã, 3ª-) da remissão dos pecados, 4ª-) da ressurreição da carne; 5ª-) da vida eterna.
 
-				<h6>- DO ESPÍRITO SANTO</h6>
+				<h6 id="espirito">- DO ESPÍRITO SANTO</h6>
 				<li>Que diz a primeira parte do Terceiro Artigo?</li>
 				Creio no Espírito Santo.
 				<li>Quem é o Espírito Santo?</li>
@@ -356,7 +361,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				    <li>renunciando às vontades da carne.</li> 
 				</ol>    
 
-				<h6>- DA SANTA IGREJA CRISTÃ</h6>
+				<h6 id="santaigreja">- DA SANTA IGREJA CRISTÃ</h6>
 
 				<p>DO PROPÓSITO DA IGREJA<p>
 				<li>Que diz a segunda parte do Terceiro Artigo?</li>
@@ -501,7 +506,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 
 
 
-				<h6>- DA REMISSÃO DOS PECADOS</h6>
+				<h6 id="remissao">- DA REMISSÃO DOS PECADOS</h6>
 				<li> Que diz a terceira parte do Terceiro Artigo?</li>
 				Creio na remissão dos pecados.
 				<li> Que é pecado?</li>
@@ -551,7 +556,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 
 
 
-				<h6>- DA RESSURREIÇÃO DA CARNE</h6>
+				<h6 id="ressureicao">- DA RESSURREIÇÃO DA CARNE</h6>
 				<li> Que diz a quarta parte do Terceiro Artigo?</li>
 				Creio na ressurreição da carne.
 				<li> Que ensina a Escritura a respeito da ressurreição da carne?</li>
@@ -561,7 +566,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				<li> O que a Bíblia diz sobre a reencarnação?</li>
 				A Bíblia ensina claramente a doutrina da ressurreição. Portanto, as Escrituras condenam e provam ser falso, todo e qualquer ensinamento baseado na reencarnação. (Ec 9:5-6; Jó 19:25-27; 1 Co 15:51-52) 
 
-				<h6>- DA VIDA ETERNA</h6>
+				<h6 id="vidaeterna">- DA VIDA ETERNA</h6>
 				<li> Que diz a quinta parte do Terceiro Artigo?</li>
 				Creio na vida eterna.
 				<li> Que ensina a Escritura a respeito da vida eterna?</li>
@@ -587,7 +592,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				<li> Quais são os elementos necessários para haver o sacramento da Santa Ceia?</li>
 				Os elementos necessários para haver o sacramento da Santa Ceia são: o pão e o vinho, unidos à palavra de Deus. (Mt 26:26-28; Mc 14:22-24; Lc 22:19-20;  1 Co 11:23-25)
 
-				Art. I: DA ESSÊNCIA DO BATISMO
+				<h4 id="essenciabat">Art. I: DA ESSÊNCIA DO BATISMO</h4>
 				<li> Que é o batismo?</li>
 				O batismo não é apenas água simples, mas é a água compreendida no mandamento divino e ligada à palavra de Deus. 
 				<li> Quem é o autor do batismo?</li>
@@ -629,7 +634,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				<li> Quantas vezes devo ser batizado?</li>
 				O Novo Testamento afirma que há um só batismo. Entretanto, pelo fato de vivermos cercados de muitas instituições religiosas cheias de falsos ensinos, supertições, crendices e idolatrias (altares consagrados a ídolos), as pessoas provindas desse meio, para serem membros de nossa Igreja, devem renunciar quaisquer batismos ali realizados e receberem um batismo genuinamente cristão. (Ef 4:5; 1 Co 10:14-22)
 
-				<h4>Art. II: DO BATISMO INFANTIL</h4>
+				<h4 id="batismoinf">Art. II: DO BATISMO INFANTIL</h4>
 				<li> Quais são os argumentos mais usados contra a prática do batismo infantil?</li>
 				Os argumentos mais usados contra a prática do batismo infantil são: 
 					<ol><li>as crianças não tem pecado;</li>
@@ -680,7 +685,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				<li> Por que não apresentamos as crianças?</li>
 				Não apresenramos as crianças pelos seguintes motivos: 1º-) a apresentação era um ritual da fé judaica. O Senhor, quando do livramento dos primogênitos do povo de Israel na terra do Egito, exigiu a consagração de todos os primogênitos, tanto de homens como de animais, a Ele. Era rito perpétuo. Todo judeu consagra seus primogênitos por causa disso. O rito exigia sacrifícios de rolas e pombinhos. 2º-) não se repete com cristãos em parte nenhuma do Novo Testamento. Essa prática era para judeus e não para cristãos, por isso não se repete. A única narrativa que temos no Novo Testamento tem a ver com Jesus e não pode servir de exemplo para cristãos pois Jesus era judeu, filho de pais judeus, que praticavam a fé judaica e, por isso, o levaram ao templo para ser apresentado. (Ex 13:2,12; Lc 2:22-24)
 
-				<h4>Art. III: DA EDUCAÇÃO DAS CRIANÇAS E DA CLASSE DE CONFIRMAÇÃO</h4>
+				<h4 id="educacao">Art. III: DA EDUCAÇÃO DAS CRIANÇAS E DA CLASSE DE CONFIRMAÇÃO</h4>
 				<li> Quem deve ensinar as crianças que foram batizadas?</li>
 				As crianças que foram batizadas devem ser ensinadas por seus pais, ou responsáveis legais, que são autoridade espiritual sobre a vida da criança. Eles devem zelar pela educação e disciplina dos pequeninos na palavra de       Deus. (Dt 6:6-7; Pv 22:6) 
 				<li> O que é a Classe de Confirmação?</li>
@@ -703,7 +708,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 				<h3 id="sacramentosant">3. O SACRAMENTO DA SANTA CEIA</h3>
 
 
-				<h4>Art. I: DA ESSÊNCIA DA SANTA CEIA</h4>
+				<h4 id="essenciaceia">Art. I: DA ESSÊNCIA DA SANTA CEIA</h4>
 				<li> Que é a Santa Ceia?</li>
 				A Santa Ceia é o verdadeiro corpo e sangue de nosso Senhor Jesus Cristo, para ser comido e bebido, sob o pão e o vinho, por nós cristãos, como Cristo mesmo o instituiu.
 				<li> Onde está isso?</li>
@@ -732,7 +737,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 			    <li> Que ordena o Senhor Jesus Cristo com as palavras: “fazei isto em memória de mim”?</li>
 				Com estas palavras Cristo quer que esse sacramento seja celebrado continuamente na Sua Igreja e, que com o pão consagrado seja comido o seu corpo e, com o vinho consagrado seja comido o seu sangue. Temos o costume de celebrar a Santa Ceia uma vez por mês e, em datas especiais como a páscoa, o natal e o ano novo. (1 Co 11:26)
 
-				<h4>Art. II: DO PROVEITO DA SANTA CEIA</h4>
+				<h4 id="proveitoceia">Art. II: DO PROVEITO DA SANTA CEIA</h4>
 				<li> Que proveito há neste comer e beber?</li>	
 				Isto nos indicam as palavras: “Dado e derramado em favor de vós para remissão dos pecados”. Por essas palavras nos são dados no sacramento remissão de pecados, vida e salvação. Porque, onde há remissão de pecados, há também, vida e salvação.  
 				<li> Por que participamos da Santa Ceia?</li>
@@ -740,7 +745,7 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 
 
 
-				<h4>Art. III: DO USO SALUTAR DA SANTA CEIA</h4>
+				<h4 id="usosalutar">Art. III: DO USO SALUTAR DA SANTA CEIA</h4>
 				<li> Quem recebe dignamente este sacramento?</li>
 				Jejuar e preparar-se corporalmente é, sem dúvida, boa disciplina externa. Mas verdadeiramente digno e preparado é aquele que tem fé nestas palavras: “derramado em favor de vós para remissão de pecados”. Aquele, porém, que não crê nessas palavras ou delas duvida, é indigno e não está preparado, pois as palavras “por vós” exigem corações verdadeiramente crentes.  
 				<li> Como deve examinar-se aquele que quer comer deste pão e quer beber deste cálice?</li>
@@ -774,11 +779,11 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
     </div>
     
     <div><h4 id="reformapro">4. A REFORMA PROTESTANTE</h4></div>
-		<div><h5>- LUTERO, O GRANDE REFORMADOR</h5></div>
+		<div><h5 id="lutero">- LUTERO, O GRANDE REFORMADOR</h5></div>
 		<p>Em 1.512, Martinho Lutero, nascido em 10 de novembro de 1.483 na cidade alemã de Eisleben, tornou-se doutor em teologia e passou a lecionar na universidade de Wittenberg. Sendo um dos privilegiados a ter acesso a uma Bíblia, Lutero, guiado pelo Espírito Santo, descobriu a verdade do Evangelho da graça de Deus e a paz de sua alma lendo as palavras “o justo viverá pela   fé” (Rm 1:17). Então compreendeu que o perdão e a vida eterna são recebidos por meio da fé em Jesus Cristo, o Filho de Deus, que morreu e ressuscitou para perdão de todo aquele que nele crê. 
 		Não podendo ficar calado, a 31 de outubro de 1.517, afixou na porta da Igreja do castelo de Wittenberg, 95 teses contra os abusos da Igreja Romana e especialmente contra a venda de indulgências. Em 1.520, Lutero foi excomungado pelo Papa e ao mesmo tempo queimou a bula papal de excomunhão em praça pública, rompendo assim, com a Igreja Romana. Em 1.530 surgiu a Confissão de Augsburgo que foi escrita por Felipe Melanchton com a colaboração de Martinho Lutero. Assim, pouco a pouco, Lutero viu-se obrigado, juntamente com seus seguidores, a formar um grupo separado de cristãos que queriam permanecer na verdade Bíblica e, seguir os fundamentos da Igreja Cristã primitiva e a mensagem salvadora de Jesus Cristo, pregando o amor e perdoando ao próximo.</p>
 
-	<div><h5>- A IGREJA LUTERANA PÓS-REFORMA</h5></div>
+	<div><h5 id="posreforma">- A IGREJA LUTERANA PÓS-REFORMA</h5></div>
 	<p>Muitos países aderiram ao movimento iniciado por Martinho Lutero: boa parte da Alemanha, a Finlândia, a Suécia, a Noruega, a Dinamarca, a Boêmia, a Morávia (hoje a República Tcheca). Com características próprias, a Inglaterra, a Escócia, a Holanda, a Suíça e, em parte, a França, a Áustria e a Hungria. Hoje a Igreja Luterana encontra-se espalhada por todos os cinco continentes. Espalhou-se pela Europa, caminhou para os Estados Unidos e mais tarde para outros países, chegando à América Latina e ao Brasil.</p>
 
 <div><h4 id="luteranismobra">5. O LUTERANISMO NO BRASIL</h4></div>
@@ -786,7 +791,9 @@ Nosso principal objetivo é que você se comprometa com Jesus Cristo, nosso Senh
 <p>No Brasil, o Luteranismo começou com duas denominações Luteranas: A Igreja Evangélica de Confissão Luterana no Brasil (IECLB) e a Igreja Evangélica Luterana do Brasil (IELB). São Igrejas com poucas diferenças teológicas. Estão separadas porque surgiram de missões diferentes. A IECLB é resultado da fusão de alguns sínodos e do trabalho de missionários vindos da Alemanha em 1.824, para atender às necessidades espirituais dos imigrantes.</p>
 <p>O cristianismo evangélico como é representado hoje pela IECLB, cresceu e formou-se ao longo de uma caminhada de 162 anos. Sua infância coincide com o início do Brasil-Império e, está intimamente relacionada com a imigração. Já tinha havido uma pequena imigração de alemães em 1.818, mas somente em 1.824 veio um maior número de imigrantes, trazidos por autoridades brasileiras. As origens do Luteranismo no Brasil remontam, sob o ponto de vista institucional, a cinco comunidades, fundadas entre 1.824 e 1.828 em Nova Friburgo (1.824), São Leopoldo (1.824), Três Forquilhas (1.826), Rio de Janeiro (1.827) e Campo Bom (1.828). Outras comunidades surgiram a partir da metade do século XIX em novos núcleos de colonização em Santa Catarina, no Espírito Santo, no Rio de Janeiro, em Minas Gerais, no Paraná e em São Paulo. As comunidades abrigavam inicialmente luteranos e calvinistas. Somente no final do século XIX e início do século XX começaram a adotar expressamente a posição luterana, devido à necessidade de definição doutrinária e à atuação de pastores e teólogos que eram luteranos convictos. Consequentemente, a Igreja que resultou disso é “de confissão luterana”. Os luteranos eram agrupados em sínodos, ou seja, Igrejas regionais que caminhavam em conjunto. Esses sínodos, até então, eram ligados à Igreja Luterana da Alemanha. Posteriormente, houve a transformação das Igrejas regionais, os sínodos, numa Igreja de abrangência nacional. Em 26 de outubro de 1.949 os sínodos constituíram a Federação Sinodal, a qual, recebeu mais tarde o nome de Igreja Evangélica de Confissão Luterana no Brasil.</p>
 	<p>Já a Igreja Evangélica Luterana do Brasil (IELB) é originária do trabalho missionário americano desenvolvido a partir de 1.900 pelo Sínodo Evangélico Luterano de Missouri, Ohio e outros estados, conhecido desde 1.847, como “The Lutheran Church - Missouri Synod”. Este sínodo foi fundado em 1.847. Formou-se sob a direção do pastor Carl Ferdinand Wilhelm Walther, que em 1.838, havia emigrado da Alemanha para os Estados Unidos por razões de consciência. Em 1.817, o rei da Prússia, Frederico Guilherme III, no intuito de acabar ao que definia como “querelas religiosas”, decretara a união da Igreja Luterana com a Igreja Reformada, fundada por Zwinglio e Calvino, formando a Igreja Evangélica Unida. Muitos luteranos, revoltados com essa ingerência do trono na vida da Igreja, e inconformados com a teologia racionalista que lhe dava sustentação, decidiram abandonar a pátria e emigrar para os Estados Unidos. Na América esperavam desfrutar da liberdade de consciência e culto, privilégios garantidos pela constituição daquele país. Unidos, grupos de imigrantes luteranos formaram a Igreja Luterana Sínodo de Missouri, com a qual, a IELB hoje se identifica.</p> 
-<div><h4 id="renovacaolut">6. A RENOVAÇÃO LUTERANA</h4></div>
+
+    <div>
+	   <h4 id="renovacaolut">6. A RENOVAÇÃO LUTERANA</h4></div>
 
 	<p>O Movimento Luterano de Renovação espiritual teve início no Brasil na década de 1.970, dentro da Igreja Evangélica Luterana do Brasil (IELB). O objetivo da renovação espiritual nunca foi o de sair da IELB, mas sim, promover despertamento e renovação espiritual no meio da Igreja. Após muita resistência por parte da IELB, os Luteranos Renovados foram convidados a se retirarem do seu meio. Com isso, os renovados começaram a se organizar. Na medida em que o trabalho foi tomando forma e crescendo, deram-se início a várias congregações em vários estados do Brasil. Hoje temos uma Associação de Igrejas de Renovação Luterana, da qual, o Espaço Esperaça faz parte atuando em várias cidades do Brasil e no exterior.
 Como Luteranos Renovados, nós do Espaço Esparança - Igreja da Renovação Luterana do Brasil, reafirmamos nossa posição doutrinária oriunda da reforma iniciada por Martinho Lutero (posição luterana), entendendo que necessitamos de uma busca contínua do Espírito Santo, seu poder e seus dons: 1º-) para vivermos um vida santa para a glória de Deus; 2º-) para proclamar a Palavra de Deus na sua simplicidade e pureza com toda intrepidez; 3º-) para cumprir o chamado missionário do “Ide, portanto, fazei discípulos de todas as nações...” (Mt 28:18-20)</p>
@@ -803,7 +810,8 @@ Como Luteranos Renovados, nós do Espaço Esparança - Igreja da Renovação Lut
 <p>Baseado no Catecismo Menor de Martinho Lutero 35ª edição (Editora Concórdia)
    Sumário da Doutrina Cristã - Edward W. A. Koehler (Editora Concórdia)
      O Homem e o Sagrado - Valter Kuchenbecker (Editora Ulbra)
-		             Simpósio de História da Igreja (Editora Sinodal)</p>
+		             Simpósio de História da Igreja (Editora Sinodal)</p><br>
+		             <div class="siteigreja"><a href="http:\\www.igrejaespacoesperanca.com.br" target="_blank">www.igrejaespacoesperanca.com.br</a></div>
     <br>
     <br>
     <br>
